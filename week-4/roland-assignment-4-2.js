@@ -19,8 +19,9 @@ var header = require('../roland-header.js');
 
 //declare an array with 5 string values of fruits
 var fruits = ['Mango','Orange','Banana','Dragonfruit','Kiwi'];
+//call the getFruits function with the fruits array as a parameter
 getFruit(fruits);
-
+//this function iterates the values of a given array and outputs each to the console
 function getFruit(fruitArray){
     for(var i = 0;i<fruitArray.length;i++){
         console.log(fruitArray[i]);
