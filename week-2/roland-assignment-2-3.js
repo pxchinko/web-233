@@ -8,7 +8,8 @@ var header = require('../roland-header.js');
 ; Description: Exercise to demonstrate understanding of function properties. Expected output: "Hello Jonathan Roland!"
 ;===========================================
 */
-
+console.log(header.display('Jonathan','Roland','Assignment 2.3'));
+console.log('\n');
 //define a new 'jonathan' property of myName() and give it the value "Jonathan"
 myName.jonathan = "Jonathan";
 

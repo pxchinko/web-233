@@ -9,7 +9,8 @@ var header = require('../roland-header.js');
 ; Expected Output: motorcycle
 ;===========================================
 */
-
+console.log(header.display('Jonathan','Roland','Assignment 4.3'));
+console.log('\n');
 //declare an array with the values of 5 vehicles
 var vehicles = ['plane','train','car','motorcycle','helicopter'];
 //call the getValue function using the vehicles array as the parameter

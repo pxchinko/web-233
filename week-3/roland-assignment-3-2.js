@@ -8,7 +8,8 @@ var header = require('../roland-header.js');
 ; Description: Exercise to demonstrate understanding of pattern matching functions.
 ;===========================================
 */
-
+console.log(header.display('Jonathan','Roland','Assignment 3.2'));
+console.log('\n');
 //variables for match testing
 var violin = "violin";
 var guitar = "guitar";

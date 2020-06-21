@@ -8,6 +8,8 @@ var header = require('../roland-header.js');
 ; Description: Exercise to demonstrate understanding of switch blocks.
 ;===========================================
 */
+console.log(header.display('Jonathan','Roland','Assignment 3.3'));
+console.log('\n');
 
 //declare a constant to test against
 const theAnswerToTheUltimateQuestion = 42;

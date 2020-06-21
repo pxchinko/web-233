@@ -8,6 +8,8 @@ var header = require('../roland-header.js');
 ; Description: Exercise to demonstrate understanding of loops.
 ;===========================================
 */
+console.log(header.display('Jonathan','Roland','Assignment 3.4'));
+console.log('\n');
 
 const test = 7;
 

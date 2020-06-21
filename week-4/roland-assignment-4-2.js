@@ -14,7 +14,8 @@ var header = require('../roland-header.js');
 ;   Kiwi 
 ;===========================================
 */
-
+console.log(header.display('Jonathan','Roland','Assignment 4.2'));
+console.log('\n');
 
 
 //declare an array with 5 string values of fruits
