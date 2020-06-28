@@ -16,11 +16,14 @@ var header = require('../roland-header.js');
 ;   Basically anything involving peanut butter :)
 ;===========================================
 */
+//display the header
 console.log(header.display('Jonathan','Roland','Assignment 5.2'));
 console.log('\n');
-
+//create array of foods I like
 var foodsILike = ['Steak','Seafood','Pizza','Hibachi','Basically anything involving peanut butter :)'];
+//title the output
 console.log('Foods I like:\n');
+//output each type of food using forEach()
 foodsILike.forEach(function(food){
     console.log(food);
 });
