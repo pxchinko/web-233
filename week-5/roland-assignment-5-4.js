@@ -6,18 +6,6 @@ var header = require('../roland-header.js');
 ; Date:   28 June 2020
 ; Modified By: 
 ; Description: A program demonstrating Array-Like Object manipulation using map() and forEach().
-; Expected Output:
-;    Composers
-;
-;    First name: Claude, Last name: Debussy, Genre: Impressionism, Rating: 10
-;
-;    First name: Erik, Last name: Satie, Genre: Minimalism, Rating: 8
-;
-;    First name: Philip, Last name: Glass, Genre: Contemporary Minimalism, Rating: 7
-;
-;    First name: Modest, Last name: Mussorgsky, Genre: Russian Romanticism, Rating: 6
-;
-;    First name: Johann, Last name: Bach, Genre: Baroque, Rating: 9
 ;===========================================
 */
 
