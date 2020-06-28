@@ -7,6 +7,13 @@ var header = require('../roland-header.js');
 ; Modified By: 
 ; Description: A program demonstrating simple use of the forEach() method.
 ; Expected Output:
+;   Foods I like:
+;   
+;   Steak
+;   Seafood
+;   Pizza
+;   Hibachi
+;   Basically anything involving peanut butter :)
 ;===========================================
 */
 console.log(header.display('Jonathan','Roland','Assignment 5.2'));
