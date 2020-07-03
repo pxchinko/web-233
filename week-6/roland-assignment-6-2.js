@@ -12,7 +12,7 @@ var header = require('../roland-header.js');
 //output exercise header
 console.log(header.display('Jonathan','Roland','Assignment 6.2'));
 console.log('\n');
-
+//create July 4th object
 var julyFourth = {
     food: 'bbq',
     drink: 'beer',
@@ -20,7 +20,7 @@ var julyFourth = {
     celebrateWith: 'fireworks',
     reason: 'independence'
 }
-
+//try to call a non-existent property of the July 4th object to throw a reference error
 try{
     var work = julyFourth.work;
     if(work === undefined){
