@@ -1,0 +1,38 @@
+<!--
+============================================
+; Title:  Discussion 7.1
+; Author: Jonathan Roland
+; Date:   9 July 2020
+; Modified By: 
+; Description: Javascript program that manipulates DOM, but with at least 2 errors.
+; Expected Function: Clicking the 'Switch Colors' button will exchange the CSS text colors of the h1 and p elements.
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Discussion 7.1</title>
+    </head>
+    <body>
+        <h1 id="my-heading" style="color:crimson">Sample Text</h1>
+        <p id="my-paragraph" style="color:skyblue">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec rutrum erat, eu rutrum tellus. Ut in tempor dolor, quis malesuada diam. Phasellus rhoncus tristique odio, varius consectetur nulla tempor ultrices. In ut eleifend urna. Quisque rhoncus eget nisl ac venenatis. In eget erat vel justo consectetur interdum. Integer porttitor, tortor quis tincidunt elementum, lorem sapien elementum diam, in feugiat ligula augue non felis. Curabitur nisl nisi, elementum et tellus et, imperdiet pulvinar augue. Vestibulum a mi mollis, facilisis ante venenatis, varius nisl. Sed consectetur quam risus, lobortis sollicitudin libero efficitur sit amet. Vivamus rutrum, diam in dignissim congue, nunc ante ultrices ex, nec auctor lacus urna a metus.
+        </p>
+        <button id="my-button">Switch Colors</button>
+    </body>
+    <script>
+        var button = document.getElementById("my-button");
+        button.addEventListener("click",function(){
+            switchColors;
+        },false);
+        function switchColors(){
+            var heading = document.getElementById("my-heading");
+            var paragraph = document.getElementByClass("my-paragraph");
+            var headingColor = heading.style.color;
+            var paragraphColor = paragraph.style.color;
+            heading.Style.color = paragraphColor;
+            paragraph.style.color = headingColor;
+        }
+    </script>
+</html>
