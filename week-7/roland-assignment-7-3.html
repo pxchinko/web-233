@@ -1,0 +1,38 @@
+<!--
+============================================
+; Title:  Discussion 7.3
+; Author: Jonathan Roland
+; Date:   12 July 2020
+; Modified By:
+; Description: Javascript program that creates ordered list and table examples to demonstrate embedded Javascript
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Assignment 7.3</title>
+        <link rel="stylesheet" href="../site.css">
+    </head>
+    <body>
+    </body>
+    <script>
+      var groceryItems = [
+        "Peanut Butter",
+        "Jelly",
+        "Bread",
+        "Eggs",
+        "Milk"
+      ];
+      var orderedList = "<h1>SHOPPING LIST v.1</h1><ol>";
+      var table = "<h1>SHOPPING LIST v.2</h1><table><thead><tr><th>ID</th><th>Item</th></tr></thead><tbody>";
+      groceryItems.forEach(function(item,count){
+        orderedList+="<li>"+item+"</li>";
+        table+="<tr><td>"+count+"</td><td>"+item+"</td></tr>";
+      });
+      orderedList += "</ol>";
+      table+="</tbody>";
+      document.write(orderedList);
+      document.documentElement.innerHTML+=table;
+    </script>
+</html>
