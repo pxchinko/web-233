@@ -1,0 +1,47 @@
+<!--
+============================================
+; Title:  Assignment 8.1
+; Author: Jonathan Roland
+; Date:   15 July 2020
+; Modified By:
+; Description: Javascript program that demonstrates DOM manipulation with jQuery, and has at least 2 errors.
+; Expected Output/Functionality: Enter your name and click Display to see it displayed. Click Reset to clear the display and text inputs.
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Assignment 7.4</title>
+        <link rel="stylesheet" href="../site.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+      <div id="my-inputs">
+        <h2>Enter your name</h2>
+        <label for="#fname">First Name</label>
+        <input type="text" id="fname">
+        <br>
+        <label for="#lname">Last Name</label>
+        <input type="text" id="lname">
+        <br>
+        <button id="displayBtn">Display</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <div>
+        <h3 name="resultsDisplay"></h3>
+      </div>
+    </body>
+    <script >
+      $('#displayBtn').on('click' function(){
+        var fname = $('#fname').val();
+        var lname = $('#lname').val();
+        $('#resultsDisplay').text(fname+" "+lname);
+      });
+      $('#resetBtn').on('click',function(){
+        $('.fname').val('');
+        $('#lname').val();
+        $('#resultsDisplay').text('');
+      });
+    </script>
+</html>
